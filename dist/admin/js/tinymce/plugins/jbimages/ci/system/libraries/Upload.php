@@ -403,7 +403,7 @@ class CI_Upload {
 		$filename = str_replace($this->file_ext, '', $filename);
 
 		$new_filename = '';
-		for ($i = 1; $i < 100; $i++)
+		for ($i = 1; $i < 200; $i++)
 		{
 			if ( ! file_exists($path.$filename.$i.$this->file_ext))
 			{
